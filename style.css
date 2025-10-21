@@ -618,3 +618,19 @@ footer {
         padding: 15px;
     }
 }
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.video-item {
+    text-align: center;
+}
+
+.video-item p {
+    margin-top: 10px;
+    font-weight: 600;
+    color: #0077b6;
+}
