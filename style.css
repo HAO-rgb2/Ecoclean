@@ -47,13 +47,17 @@ header .container {
     align-items: center;
 }
 
+/* Estilo da logo */
 .logo {
-    max-height: 50px;
-    transition: transform 0.3s ease;
+    max-height: 80px; /* aumenta a proporção da imagem */
+    border-radius: 12px; /* bordas arredondadas (aumente para mais curva) */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Efeito ao passar o mouse */
 .logo:hover {
-    transform: scale(1.05);
+    transform: scale(1.08); /* aumenta um pouco mais no hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* sombra suave opcional */
 }
 
 nav ul {
